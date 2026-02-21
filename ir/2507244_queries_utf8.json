@@ -1,0 +1,1527 @@
+﻿{
+  "student_surname": "Zhang",
+  "student_givenname": "Yang",
+  "student_reg_number": "2507244",
+  "topic_keywords":" Sony Group Corporation Minato Tokyo Akio Morita, Masaru Ibuka, Kenichiro Yoshida, Hiroki Totoki",
+  "queries":
+  [
+
+    {
+      "number": 1,
+      "original_query": "Who founded Sony?",
+      "keyword_query": "founded sony akio morita masaru ibuka",
+      "kibana_query": {
+        "query": {
+          "multi_match": {
+            "query": "founded sony akio morita masaru ibuka",
+            "fields": ["parsedParagraphs", "title"],
+            "type": "best_fields"
+          }
+        }
+      },
+      "answer_type": "PERSON",
+      "exact_answers": ["Masaru Ibuka", "Akio Morita"],
+      "matches": [
+        {
+          "docid": "738217",
+          "sentences": [
+            "Masaru Ibuka (äº•æ·± å¤§ Ibuka Masaru; April 11, 1908 â€“ December 19, 1997) was a Japanese electronics industrialist and co-founder of Sony, along with Akio Morita."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "In 1958, Morita and Ibuka decided to rename their company Sony Corporation (derived from \"sonus\"â€”Latin for \"sound\"â€”and \"sonny\", a then-common American expression)."
+          ]
+        },
+        {
+          "docid": "18581563",
+          "sentences": [
+            "In collaboration with the founders (Akio Morita and Masaru Ibuka) of Sony Corporation, Albert D. Cohen and his five brothers negotiated early distribution of Sony's first transistor radio, TR55 in 1955."
+          ]
+        },
+        {
+          "docid": "5160594",
+          "sentences": [
+            "Akio Morita and Masaru Ibuka, then operating under the business name Tokyo Tsushin Kogyo, had been working on plans to introduce a transistor radio to the market since 1953.",
+            "The TR-55 featured the Sony name, but the company did not officially change its name to Sony until January 1958."
+          ]
+        },
+        {
+          "docid": "5093866",
+          "sentences": [
+            "Made in Japan: Akio Morita and Sony is an autobiography of Akio Morita, the co-founder and former chairman of Sony Corporation."
+          ]
+        }
+      ]
+    },
+
+    {
+      "number": 2,
+      "original_query": "When was the PlayStation first released?",
+      "keyword_query": "Sony PlayStation first released 1994",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation",
+                  "fields": ["title", "parsedParagraphs"],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released in December 1994",
+                  "fields": ["parsedParagraphs"],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduction of the PlayStation in December 1994",
+                  "fields": ["parsedParagraphs"],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launch of the original PlayStation console in 1994",
+                  "fields": ["parsedParagraphs"],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "December 1994",
+                  "fields": ["parsedParagraphs", "title"],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1994",
+                  "fields": ["parsedParagraphs", "title"],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": ["1994", "December 1994", "early December 1994"],
+      "matches": [
+        {
+          "docid": "1025398",
+          "sentences": [
+            "Since the launch of the original PlayStation console in 1994, the company has been developing PlayStation home video game consoles, accessories and services."
+          ]
+        },
+        {
+          "docid": "34699091",
+          "sentences": [
+            "Sony released the PlayStation in December 1994 in Japan"
+          ]
+        },
+        {
+          "docid": "65279162",
+          "sentences": [
+            "At the same time, a new competitor in the console marketplace emerged, Sony Computer Entertainment, with the introduction of the PlayStation in December 1994."
+          ]
+        },
+        {
+          "docid": "485939",
+          "sentences": [
+            "The PlayStation, released in early December 1994, was the most successful console of this generation."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "Launched in 1994, the first PlayStation gained 61% of global console sales and broke Nintendo's long-standing lead in the market."
+          ]
+        }
+      ]
+    },
+    
+    
+    {
+  "number": 3,
+  "original_query": "When was the PlayStation 2 released?",
+  "keyword_query": "PlayStation 2 released 2000",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "PlayStation 2",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "released in Japan on March 4, 2000",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "released in 2000",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "launch of the PlayStation 2 in 2000",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "launched in 2000",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "2000",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["2000", "March 4, 2000", "October 26, 2000"],
+  "matches": [
+    {
+      "docid": "1025398",
+      "sentences": [
+        "The launch of the second PS console, the PlayStation 2 was released in Japan on March 4, 2000, and the U.S. on October 26, 2000."
+      ]
+    },
+    {
+      "docid": "693454",
+      "sentences": [
+        "In 2000, Sony released its successor to the PlayStation, the PlayStation 2."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "Sony followed up with the PlayStation 2 in 2000, which was even more successful."
+      ]
+    },
+    {
+      "docid": "49812549",
+      "sentences": [
+        "Sony would launch the PlayStation 2 in 2000, which feature support for online play via an external modem."
+      ]
+    },
+    {
+      "docid": "2254865",
+      "sentences": [
+        "With the launch of the PlayStation 2 in 2000, FromSoftware released the role-playing games Eternal Ring and Evergrace."
+      ]
+    }
+  ]
+},
+
+{
+  "number":4 ,
+  "original_query": "When was the PlayStation 4 released?",
+  "keyword_query": "PlayStation 4 released 2013",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "PlayStation 4",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "launched in North America on November 15, 2013",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "released on November 15, 2013",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "November 29, 2013",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "release in November 2013",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "2013",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["2013", "November 2013", "November 15, 2013", "November 29, 2013", "February 23, 2014"],
+  "matches": [
+    {
+      "docid": "29007874",
+      "sentences": [
+        "With the launch of the PlayStation 4 (PS4) in 2013,"
+      ]
+    },
+    {
+      "docid": "32168061",
+      "sentences": [
+        "The PlayStation 4 was released on November 15, 2013, in North America and November 29, 2013, in Australia and Europe at US$399.99, A$549 and â‚¬399 respectively."
+      ]
+    },
+    {
+      "docid": "65279162",
+      "sentences": [
+        "Sony and Microsoft both released their next consoles, the PlayStation 4 and the Xbox One, in 2013."
+      ]
+    },
+    {
+      "docid": "26694626",
+      "sentences": [
+        "also believed that the Vita had been released too late into the main PlayStation console cycle and too close to the PlayStation 4's release in November 2013."
+      ]
+    },
+    {
+      "docid": "1025398",
+      "sentences": [
+        "The PS4 was announced as the successor to the PS3 and was launched in North America on November 15, 2013, in Europe on November 29, 2013 and in Japan on February 23, 2014."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 5,
+  "original_query": "Where is Sony headquartered?",
+  "keyword_query": "Sony headquartered Minato Tokyo",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Sony",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "headquartered in Minato, Tokyo",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Sony moved to Minato, Tokyo",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "global headquarters of Sony",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "KÅnan, Minato, Tokyo",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Minato, Tokyo",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "GPE",
+  "exact_answers": ["Minato, Tokyo", "Minato, Tokyo, Japan", "KÅnan, Minato, Tokyo"],
+  "matches": [
+    {
+      "docid": "405276",
+      "sentences": [
+        "Minato hosts many embassies. It is also home to various domestic companies, including Honda, Mitsubishi Heavy Industries, MinebeaMitsumi, Mitsubishi Motors Corporation, NEC, Nikon, SoftBank Group, Sony, Fujitsu and Yokohama Rubber Company, as well as the Japanese headquarters of a number of multi-national firms, including Apple and Goldman Sachs."
+      ]
+    },
+    {
+      "docid": "335939",
+      "sentences": [
+        "Sony moved to Minato, Tokyo around the end of 2006 and closed the Osaki West Technology Center in Shinagawa around 2007."
+      ]
+    },
+    {
+      "docid": "3404426",
+      "sentences": [
+        "The global headquarters of Sony were previously located along Sony DÅri on the eastern edge of Higashi-Gotanda, but most of the complex has moved to adjacent Shinagawa, Minato Ward."
+      ]
+    },
+    {
+      "docid": "1025398",
+      "sentences": [
+        "the headquarters of the company moved from Minami-Aoyama to the (Sony Corporation's headquarters) in KÅnan, Minato, Tokyo."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "formerly known as and , is a Japanese multinational conglomerate corporation headquartered in Minato, Tokyo, Japan."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 6,
+  "original_query": "What company did Sony acquire in 1989?",
+  "keyword_query": "Sony acquired Columbia Pictures 1989",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Sony",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "1989",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "acquired Columbia Pictures",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "acquired Columbia Pictures Entertainment",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "acquisition",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "was bought",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": ["Columbia Pictures", "Columbia Pictures Corporation", "Columbia Pictures Entertainment"],
+  "matches": [
+    {
+      "docid": "14109634",
+      "sentences": [
+        "Sony acquired Columbia Pictures Corporation in 1989."
+      ]
+    },
+    {
+      "docid": "664762",
+      "sentences": [
+        "On November 8, 1989, the Sony Corporation of Japan acquired Columbia Pictures Entertainment for $3.4 billion."
+      ]
+    },
+    {
+      "docid": "354992",
+      "sentences": [
+        "Upon the full acquisition of Tri-Star by Columbia Pictures, and when Columbia Pictures Entertainment (now Sony Pictures Entertainment) was bought from Coca-Cola by Sony in 1989, Sony inherited the theaters."
+      ]
+    },
+    {
+      "docid": "939909",
+      "sentences": [
+        "On November 8, 1989, Sony completed the acquisition by a \"short-form\" merger of its wholly owned subsidiary Sony Columbia Acquisition Corporation into CPE under the Delaware General Corporation Law."
+      ]
+    },
+    {
+      "docid": "1893998",
+      "sentences": [
+        "On November 9, 1989, Sony entered the film industry by acquiring Columbia Pictures for $3.4 billion."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 7,
+  "original_query": "Which Tokyo wards or areas host major Sony offices or facilities?",
+  "keyword_query": "Sony offices facilities Tokyo Minato Shinagawa Toranomon",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Sony",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Tokyo",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "Minato",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Shinagawa",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Toranomon",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "office OR facility OR center",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "GPE",
+  "exact_answers": [
+    "Minato, Tokyo",
+    "Shinagawa",
+    "Toranomon"
+  ],
+  "matches": [
+    {
+      "docid": "405276",
+      "sentences": [
+        "Minato hosts many embassies... including Sony."
+      ]
+    },
+    {
+      "docid": "335939",
+      "sentences": [
+        "Sony moved to Minato, Tokyo around the end of 2006 and closed the Osaki West Technology Center in Shinagawa around 2007."
+      ]
+    },
+    {
+      "docid": "3404426",
+      "sentences": [
+        "Most of the complex has moved to adjacent Shinagawa, Minato Ward."
+      ]
+    },
+    {
+      "docid": "17423273",
+      "sentences": [
+        "The Anaheim University Akio Morita Learning Center was located on the former estate of Sony Founder Akio Morita in the Minami Aoyama district of Minato, Tokyo, Japan."
+      ]
+    },
+    {
+      "docid": "1279257",
+      "sentences": [
+        "It has its headquarters in Toranomon Hills, Minato, Tokyo."
+      ]
+    }
+  ]
+},
+
+
+
+{
+  "number": 8,
+  "original_query": "When was Sony founded?",
+  "keyword_query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+  "kibana_query": {
+    "query": {
+      "multi_match": {
+        "query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+        "fields": ["parsedParagraphs", "title"],
+        "type": "best_fields"
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["1946", "May 7, 1946"],
+  "matches": [
+    {
+      "docid": "6200915",
+      "sentences": [
+        "In September 1945, after the end of World War II, Masaru Ibuka started a radio repair shop in the bomb-damaged Shirokiya department store building in the Nihonbashi district of Tokyo. The next year, he was joined by his wartime research colleague, Akio Morita, and on 7 May 1946, they founded a company called Tokyo Tsushin Kogyo K.K. (Tokyo Telecommunications Engineering Corporation)."
+      ]
+    },
+    {
+      "docid": "74139408",
+      "sentences": [
+        "Sony Group Corporation has owned several animation studios since the company's founding on May 7, 1946 by Masaru Ibuka and Akio Morita as Tokyo Tsushin Kogyo."
+      ]
+    },
+    {
+      "docid": "2391",
+      "sentences": [
+        "With funding from Morita's father, they co-founded Tokyo Tsushin Kogyo Kabushiki Kaisha (Tokyo Telecommunications Engineering Corporation, the forerunner of Sony Corporation) in 1946 with about 20 employees and initial capital of Â¥190,000."
+      ]
+    },
+    {
+      "docid": "738217",
+      "sentences": [
+        "In 1946, a fellow wartime researcher, Akio Morita, saw a newspaper article about Ibuka's new venture and after some correspondence, chose to join him in Tokyo. With funding from Morita's father, they co-founded Tokyo Telecommunications Engineering Corporation, which became known as Sony Corporation in 1958."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "Sony was established in 1946 as Tokyo Tsushin Kogyo by Masaru Ibuka and Akio Morita."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 9,
+  "original_query": "When was the PlayStation 5 released?",
+  "keyword_query": "PlayStation 5 released 2020",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "PlayStation 5",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "release in November 2020",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "released in November 2020",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "November 12, 2020",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "November 19, 2020",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "November 2020",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "2020",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["2020", "November 2020", "November 12, 2020"],
+  "matches": [
+    {
+      "docid": "29007874",
+      "sentences": [
+        "This remastering extended to the PlayStation 5 (PS5) with its release in November 2020 with some of its launch titles being remastered PS4 games."
+      ]
+    },
+    {
+      "docid": "25940843",
+      "sentences": [
+        "SIE announced the rebranding of the division to PlayStation Studios in May 2020 as part of the introduction of the PlayStation 5, which was released later that year."
+      ]
+    },
+    {
+      "docid": "1025398",
+      "sentences": [
+        "SIE announced the formation of PlayStation Studios in May 2020 to be formally introduced alongside the PlayStation 5 later in 2020."
+      ]
+    },
+    {
+      "docid": "32168061",
+      "sentences": [
+        "In November 2020, Sony and Microsoft released the PlayStation 5 and Xbox Series X and Series S respectively."
+      ]
+    },
+    {
+      "docid": "7814407",
+      "sentences": [
+        "Support for PlayStation 5 games was added to the app in early November 2020, just prior to the console's launch on November 12, 2020."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 10,
+  "original_query": "Who is the CEO of Sony Group Corporation?",
+  "keyword_query": "Sony Group Corporation CEO Kenichiro Yoshida",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Sony Group Corporation",
+              "fields": ["title","parsedParagraphs"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "CEO",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "chief executive officer",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Kenichiro Yoshida",
+              "fields": ["parsedParagraphs","title"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "PERSON",
+  "exact_answers": ["Kenichiro Yoshida"],
+  "matches": [
+    {
+      "docid": "1527323",
+      "sentences": [
+        "On February 2, 2018, Sony announced that Hirai will be stepping down as president and CEO, effective April 1, 2018, to be replaced by CFO Kenichiro Yoshida. Hirai remained as the company's chairman and served on the board of directors to help the company transition to leadership under Yoshida."
+      ]
+    },
+    {
+      "docid": "69539949",
+      "sentences": [
+        "Kenichiro Yoshida (born 20 October 1959) is a Japanese businessman who has been the chief executive officer of Sony since April 2018, succeeding Kazuo Hirai, prior to which Yoshida was the company's chief financial officer. Yoshida joined Sony in 1987, and worked across the company's subsidiaries in the US and Japan."
+      ]
+    },
+    {
+      "docid": "75227331",
+      "sentences": [
+        "with Sony Group Corporation CEO Kenichiro Yoshida giving opening remarks."
+      ]
+    },
+    {
+      "docid": "62776300",
+      "sentences": [
+        "The Vision-S concept was unveiled at the 2020 Consumer Electronics Show in Las Vegas by CEO Kenichiro Yoshida."
+      ]
+    },
+    {
+      "docid": "72364898",
+      "sentences": [
+        "The ceremony was hosted by voice actress Sally Amaki and presenter Jon Kabira, with Sony CEO Kenichiro Yoshida opening the show."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 11,
+  "original_query": "What was Sony originally called?",
+  "keyword_query": "Sony originally called Tokyo Tsushin Kogyo Tokyo Telecommunications Engineering Corporation",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Sony",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "\"Tokyo Tsushin Kogyo\"",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "\"Tokyo Telecommunications Engineering Corporation\"",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "\"Tokyo Tsushin Kogyo K.K.\"",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "forerunner of Sony OR became known as Sony OR renamed Sony",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": ["Tokyo Tsushin Kogyo", "Tokyo Tsushin Kogyo K.K.", "Tokyo Telecommunications Engineering Corporation"],
+  "matches": [
+    {
+      "docid": "6200915",
+      "sentences": [
+        "Akio Morita, and on 7 May 1946, they founded a company called Tokyo Tsushin Kogyo K.K. (Tokyo Telecommunications Engineering Corporation)."
+      ]
+    },
+    {
+      "docid": "217832",
+      "sentences": [
+        "This research was done when he was with Tokyo Tsushin Kogyo (now known as Sony). He has also contributed in being a pioneer of the semiconductor superlattices."
+      ]
+    },
+    {
+      "docid": "758259",
+      "sentences": [
+        "His relationship with Sony began when he wrote a highly critical letter to Tokyo Tsushin Kogyo KK (also known as Totsuko and later as Sony),"
+      ]
+    },
+    {
+      "docid": "74139408",
+      "sentences": [
+        "Sony Group Corporation has owned several animation studios since the company's founding on May 7, 1946 by Masaru Ibuka and Akio Morita as Tokyo Tsushin Kogyo."
+      ]
+    },
+    {
+      "docid": "2391",
+      "sentences": [
+        "With funding from Morita's father, they co-founded Tokyo Tsushin Kogyo Kabushiki Kaisha (Tokyo Telecommunications Engineering Corporation, the forerunner of Sony Corporation) in 1946 with about 20 employees and initial capital of Â¥190,000."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 12,
+  "original_query": "What is Columbia Pictures Entertainment called now under Sony?",
+  "keyword_query": "Columbia Pictures Entertainment now called Sony Pictures Entertainment",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Columbia Pictures Entertainment",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "now Sony Pictures Entertainment",
+              "fields": ["parsedParagraphs"],
+              "type": "phrase"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Sony Pictures Entertainment",
+              "fields": ["title", "parsedParagraphs"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "acquired by Sony",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": ["Sony Pictures Entertainment"],
+  "matches": [
+    {
+      "docid": "3087502",
+      "sentences": [
+        "In 2002, Columbia TriStar Television was renamed as Sony Pictures Television. The last three remaining companies, with the 'Columbia TriStar' brand in its name, were Columbia TriStar Home Entertainment, the Columbia TriStar Motion Picture Group, and Columbia TriStar Marketing Group. Columbia TriStar Home Entertainment and Columbia TriStar Film Distributors became Sony Pictures Home Entertainment and Sony Pictures Releasing International in 2004 and 2005 and Columbia TriStar Motion Picture Group became the second-to-last subsidiary of Sony Pictures Entertainment to use the 'Columbia TriStar' brand name in its name."
+      ]
+    },
+    {
+      "docid": "939909",
+      "sentences": [
+        "Sony Pictures Entertainment Inc. (commonly known as Sony Pictures or SPE, and formerly known as Columbia Pictures Entertainment, Inc.) is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platform."
+      ]
+    },
+    {
+      "docid": "948327",
+      "sentences": [
+        "Columbia TriStar Television, Inc. (abbreviated as CTT) was an American television production and distribution company that was active from 1994 to 2002. It was operated as the third name of the early television studio Screen Gems and the fourth name of Pioneer Telefilms, both part of Sony Pictures Entertainment and the third company to use the Columbia and TriStar names together (the first being Columbia TriStar Home Video, later Sony Pictures Home Entertainment and the second, Columbia TriStar International Television, later rebranded as Sony Pictures Television International)."
+      ]
+    },
+    {
+      "docid": "2569663",
+      "sentences": [
+        "The company is registered under the trade name Sony Pictures Digital Productions Inc., though it is known as Sony Pictures Digital appeared in 2006 longer variant in the copyright on most of the Sony Pictures sites. It is currently headed by Robert Osher, President of Digital Productions, and Chief Operating Officer of Columbia TriStar Motion Picture Group, Sony Pictures Entertainment."
+      ]
+    },
+    {
+      "docid": "664762",
+      "sentences": [
+        "On November 8, 1989, the Sony Corporation of Japan acquired Columbia Pictures Entertainment for $3.4 billion. On August 7, 1991, under Sony Pictures Entertainment, the hyphen was officially removed from the name of the studio."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 13,
+  "original_query": "When did Tokyo Tsushin Kogyo change its name to Sony Corporation?",
+  "keyword_query": "Tokyo Tsushin Kogyo renamed Sony 1958",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "multi_match": {
+              "query": "Tokyo Tsushin Kogyo",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "should": [
+          {
+            "multi_match": {
+              "query": "renamed Sony",
+              "fields": ["parsedParagraphs"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "Sony Corporation",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "1958",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "best_fields"
+            }
+          },
+          {
+            "multi_match": {
+              "query": "January 1958",
+              "fields": ["parsedParagraphs", "title"],
+              "type": "phrase"
+            }
+          }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["1958", "January 1958"],
+  "matches": [
+    {
+      "docid": "6200915",
+      "sentences": [
+        "Following the first success in American consumer market, Tokyo Tsushin Kogyo changed its name to Sony in 1958 as people outside Japan struggled to pronounce the original name."
+      ]
+    },
+    {
+      "docid": "5160594",
+      "sentences": [
+        "The TR-55 featured the Sony name, but the company did not officially change its name to Sony until January 1958."
+      ]
+    },
+    {
+      "docid": "2391",
+      "sentences": [
+        "in 1958, Morita and Ibuka decided to rename their company Sony Corporation (derived from \"sonus\"â€”Latin for \"sound\"â€”and \"sonny\", a then-common American expression)."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "In 1958, the company changed its name to 'Sony'."
+      ]
+    },
+    {
+      "docid": "738217",
+      "sentences": [
+        "they co-founded Tokyo Telecommunications Engineering Corporation, which became known as Sony Corporation in 1958."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 14,
+  "original_query": "When was the Sony Walkman first released?",
+  "keyword_query": "Sony Walkman released 1979",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "Walkman", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "released", "fields": ["parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "launched", "fields": ["parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "introduced", "fields": ["parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "1979", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "released in 1979", "fields": ["parsedParagraphs"], "type": "phrase" } }
+        ],
+        "minimum_should_match": 2
+      }
+    }
+  },
+  "answer_type": "DATE",
+  "exact_answers": ["1979"],
+  "matches": [
+    {
+      "docid": "33809",
+      "sentences": [
+        "Walkman, stylised as , is a brand of portable audio players manufactured and marketed by Japanese company Sony since 1979."
+      ]
+    },
+    {
+      "docid": "3458918",
+      "sentences": [
+        "The Sony Walkman was released in 1979, created by Akio Morita, Masaru Ibuka (the co-founders of Sony) and Kozo Ohsone."
+      ]
+    },
+    {
+      "docid": "6200915",
+      "sentences": [
+        "Walkman, the first stereo cassette player, was launched in 1979."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "In 1979, Sony released the world's first portable music player, the Walkman, bundled with the MDL-3L2 headphones."
+      ]
+    },
+    {
+      "docid": "2391",
+      "sentences": [
+        "In 1979, the Walkman was introduced, making it one of the world's first portable music players."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 15,
+  "original_query": "Which company developed Xperia smartphones?",
+  "keyword_query": "Xperia smartphones developed Sony Mobile Xperia",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "Xperia", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "developed", "fields": ["parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "developed by", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "Sony Ericsson", "fields": ["title","parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "Sony Mobile", "fields": ["title","parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "under Sony Corporation", "fields": ["parsedParagraphs"], "type": "phrase" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": [
+    "Sony Ericsson",
+    "Sony Mobile",
+    "Sony Corporation"
+  ],
+  "matches": [
+    {
+      "docid": "307315",
+      "sentences": [
+        "Prior to April 1, 2021, Sony Mobile exclusively created Android-powered smartphones under the Xperia sub-brand name; it also developed tablet computers (Sony Tablet), smartwatches (Sony SmartWatch) and fitness trackers (Sony SmartBand), alongside accessories and software for the devices."
+      ]
+    },
+    {
+      "docid": "23556331",
+      "sentences": [
+        "Xperia was originally developed by Sony Ericsson before becoming Sony Mobile in 2012; it has been under Sony Corporation since 2021 following Sony Mobile's merger."
+      ]
+    },
+    {
+      "docid": "24948099",
+      "sentences": [
+        "The Sony Ericsson Xperia X10 is a 2010 high end smartphone in the Xperia series designed by Sony Ericsson."
+      ]
+    },
+    {
+      "docid": "74978984",
+      "sentences": [
+        "Music was launched as Walkman in 2012, debuting on Sony's first in-house smartphones the Xperia S, Xperia P and Xperia U."
+      ]
+    },
+    {
+      "docid": "30652120",
+      "sentences": [
+        "The first certified device was Xperia Play."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 16,
+  "original_query": "Trinitron is a product/brand of which company?",
+  "keyword_query": "Trinitron Sony brand name television",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "Trinitron", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "Sony", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "Sony launched", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "introduced the Trinitron", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "brand", "fields": ["parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": ["Sony", "Sony Corporation"],
+  "matches": [
+    {
+      "docid": "6200915",
+      "sentences": [
+        "In 1968, Sony launched the legendary color television set, Trinitron."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "In 1968, the company introduced the Trinitron brand name for its lines of aperture grille cathode ray tube televisions and afterwards computer monitors."
+      ]
+    },
+    {
+      "docid": "173449",
+      "sentences": [
+        "Officially introduced by Ibuka in April 1968, the original 12 inch Trinitron had a display quality that easily surpassed any commercial set in terms of brightness, color fidelity, and simplicity of operation."
+      ]
+    },
+    {
+      "docid": "21686501",
+      "sentences": [
+        "The result was the famed Trinitron system, which went on sale in 1968 to wide acclaim."
+      ]
+    },
+    {
+      "docid": "738217",
+      "sentences": [
+        "Sony's Trinitron color television in 1967."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 17,
+  "original_query": "BRAVIA televisions are products of which company?",
+  "keyword_query": "BRAVIA television Sony brand",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "BRAVIA", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "owned by Sony", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "in-house brand owned by Sony", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "Sony", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "televisions", "fields": ["parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": [
+    "Sony",
+    "Sony Corporation"
+  ],
+  "matches": [
+    {
+      "docid": "1358511",
+      "sentences": [
+        "Their flat-panel LCD televisions were branded LCD WEGA until summer 2005 when they were rebranded BRAVIA."
+      ]
+    },
+    {
+      "docid": "18581563",
+      "sentences": [
+        "Sony provides products that include Blu-ray players, BRAVIA televisions, Cyl digital cameras, Handycam Camcorders, VAIO computers, broadcast cameras,"
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "Sony used the LCD WEGA name for its LCD TVs until summer 2005. The company then introduced the BRAVIA name. BRAVIA is an in-house brand owned by Sony which produces high-definition LCD televisions,"
+      ]
+    },
+    {
+      "docid": "33804694",
+      "sentences": [
+        "On January 9, 2012, Yahoo! and Sony announced Broadcast Interactivity technology available in 2012 Sony BRAVIA televisions."
+      ]
+    },
+    {
+      "docid": "46697826",
+      "sentences": [
+        "creating an agency that launched several award-winning campaigns including: â€œBallsâ€ for Sony Bravia TVs"
+      ]
+    }
+  ]
+},
+
+{
+  "number": 18,
+  "original_query": "The TR-55 transistor radio belongs to which company?",
+  "keyword_query": "TR-55 transistor radio Sony company",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "TR-55", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "Sony", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "Sony TR-55", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "transistor radio", "fields": ["parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "1955", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": [
+    "Sony",
+    "Sony Corporation"
+  ],
+  "matches": [
+    {
+      "docid": "5160594",
+      "sentences": [
+        "The TR-55, released in 1955, was both Japan's and Sony's first commercially available transistor radio."
+      ]
+    },
+    {
+      "docid": "297066",
+      "sentences": [
+        "In August 1955, while still a small company, Tokyo Telecommunications Engineering Corporation introduced their TR-55 five-transistor radio under the new brand name Sony."
+      ]
+    },
+    {
+      "docid": "6200915",
+      "sentences": [
+        "In August 1955, Tokyo Tsushin Kogyo released the Sony TR-55, Japan's first commercially produced transistor radio."
+      ]
+    },
+    {
+      "docid": "26989",
+      "sentences": [
+        "This electronics company, known for creating products such as the transistor radio TR-55,"
+      ]
+    },
+    {
+      "docid": "18581563",
+      "sentences": [
+        "Sony's first transistor radio, TR55 in 1955."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 19,
+  "original_query": "Alpha (Î±) cameras are products introduced by which company?",
+  "keyword_query": "Sony Alpha camera brand introduced Sony Alpha DSLR",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "Alpha", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "Sony", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "branded Alpha", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "Sony Alpha", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "proprietary", "fields": ["parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": [
+    "Sony",
+    "Sony Corporation"
+  ],
+  "matches": [
+    {
+      "docid": "26989",
+      "sentences": [
+        "Sony offers a wide range of digital cameras. Its point-and-shoot models are branded Cyber-shot, while DSLRs and mirrorless models are branded Alpha,"
+      ]
+    },
+    {
+      "docid": "31384443",
+      "sentences": [
+        "such as the Panasonic Lumix DMC-GF2, Olympus PEN E-P1/E-P2, and Sony Alpha NEX-3/5."
+      ]
+    },
+    {
+      "docid": "27317016",
+      "sentences": [
+        "The Sony Alpha NEX-3 and NEX-5 (announced May 14, 2010, and released in July 2010) saw Sony enter the market with a new,"
+      ]
+    },
+    {
+      "docid": "28432995",
+      "sentences": [
+        "such as the Panasonic Lumix DMC-GF1, Olympus PEN E-P1/E-P2, and Sony Alpha NEX-3."
+      ]
+    },
+    {
+      "docid": "28519902",
+      "sentences": [
+        "Single-lens translucent (SLT) is a Sony proprietary designation for Sony Alpha cameras which employ a pellicle mirror, electronic viewfinder, and phase-detection autofocus system."
+      ]
+    }
+  ]
+},
+
+{
+  "number": 20,
+  "original_query": "VAIO computers belong to which company?",
+  "keyword_query": "Sony VAIO computers brand Sony VAIO laptop",
+  "kibana_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "multi_match": { "query": "VAIO", "fields": ["title","parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "should": [
+          { "multi_match": { "query": "brand of Sony", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "formerly a brand of Sony", "fields": ["parsedParagraphs"], "type": "phrase" } },
+          { "multi_match": { "query": "Sony", "fields": ["title","parsedParagraphs"], "type": "best_fields" } },
+          { "multi_match": { "query": "laptop OR notebook", "fields": ["parsedParagraphs"], "type": "best_fields" } }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "answer_type": "ORG",
+  "exact_answers": [
+    "Sony",
+    "Sony Corporation"
+  ],
+  "matches": [
+    {
+      "docid": "220355",
+      "sentences": [
+        "VAIO was formerly a brand of Sony, introduced in 1996."
+      ]
+    },
+    {
+      "docid": "25412104",
+      "sentences": [
+        "The Sony Vaio C Series is a discontinued series of notebook computers from Sony introduced in September 2006 as the consumer alternative follow-up to the then current SZ series."
+      ]
+    },
+    {
+      "docid": "31604345",
+      "sentences": [
+        "Sony's Vaio division had released tablet-like products before, such as the Sony Vaio U series in 2004."
+      ]
+    },
+    {
+      "docid": "18581563",
+      "sentences": [
+        "Sony provides products that include Blu-ray players, BRAVIA televisions, Cyl digital cameras, Handycam Camcorders, VAIO computers, broadcast cameras,"
+      ]
+    },
+    {
+      "docid": "25414741",
+      "sentences": [
+        "The Vaio AW series is a discontinued range of high-end multimedia laptop computers from Sony introduced in September 2008."
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

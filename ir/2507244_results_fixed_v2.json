@@ -1,0 +1,3447 @@
+{
+  "student_surname": "Zhang",
+  "student_givenname": "Yang",
+  "student_reg_number": "2507244",
+  "topic_keywords": " Sony Group Corporation Minato Tokyo Akio Morita, Masaru Ibuka, Kenichiro Yoshida, Hiroki Totoki",
+  "queries": [
+    {
+      "number": 1,
+      "original_query": "Who founded Sony?",
+      "keyword_query": "founded sony akio morita masaru ibuka",
+      "keyword_top40_docids": [
+        "738217",
+        "2391",
+        "18581563",
+        "1243003",
+        "3458918",
+        "74139408",
+        "758259",
+        "5160594",
+        "6200915",
+        "13210508",
+        "5093866",
+        "73367",
+        "44299533",
+        "26989",
+        "21686501",
+        "17423273",
+        "7886995",
+        "173449",
+        "51028898",
+        "297066",
+        "1762770",
+        "43038695",
+        "44852681",
+        "36830529",
+        "2151199",
+        "45248912",
+        "44923112",
+        "70699385",
+        "70570429",
+        "16548097",
+        "2476734",
+        "4071715",
+        "70699392",
+        "40498189",
+        "44284700",
+        "7964686",
+        "2151050",
+        "58842324",
+        "73467205",
+        "1029261"
+      ],
+      "kibana_top40_docids": [
+        "738217",
+        "2391",
+        "18581563",
+        "1243003",
+        "3458918",
+        "74139408",
+        "758259",
+        "5160594",
+        "6200915",
+        "13210508",
+        "5093866",
+        "73367",
+        "44299533",
+        "26989",
+        "21686501",
+        "17423273",
+        "7886995",
+        "173449",
+        "51028898",
+        "297066",
+        "1762770",
+        "43038695",
+        "44852681",
+        "36830529",
+        "2151199",
+        "45248912",
+        "44923112",
+        "70699385",
+        "70570429",
+        "16548097",
+        "2476734",
+        "4071715",
+        "70699392",
+        "40498189",
+        "44284700",
+        "7964686",
+        "2151050",
+        "58842324",
+        "73467205",
+        "1029261"
+      ],
+      "kibana_query": {
+        "query": {
+          "multi_match": {
+            "query": "founded sony akio morita masaru ibuka",
+            "fields": [
+              "parsedParagraphs",
+              "title"
+            ],
+            "type": "best_fields"
+          }
+        }
+      },
+      "answer_type": "PERSON",
+      "exact_answers": [
+        "Masaru Ibuka",
+        "Akio Morita"
+      ],
+      "matches": [
+        {
+          "docid": "738217",
+          "sentences": [
+            "Masaru Ibuka (井深 大 Ibuka Masaru; April 11, 1908 – December 19, 1997) was a Japanese electronics industrialist and co-founder of Sony, along with Akio Morita."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "In 1958, Morita and Ibuka decided to rename their company Sony Corporation (derived from \"sonus\"—Latin for \"sound\"—and \"sonny\", a then-common American expression)."
+          ]
+        },
+        {
+          "docid": "18581563",
+          "sentences": [
+            "In collaboration with the founders (Akio Morita and Masaru Ibuka) of Sony Corporation, Albert D. Cohen and his five brothers negotiated early distribution of Sony's first transistor radio, TR55 in 1955."
+          ]
+        },
+        {
+          "docid": "5160594",
+          "sentences": [
+            "Akio Morita and Masaru Ibuka, then operating under the business name Tokyo Tsushin Kogyo, had been working on plans to introduce a transistor radio to the market since 1953.",
+            "The TR-55 featured the Sony name, but the company did not officially change its name to Sony until January 1958."
+          ]
+        },
+        {
+          "docid": "5093866",
+          "sentences": [
+            "Made in Japan: Akio Morita and Sony is an autobiography of Akio Morita, the co-founder and former chairman of Sony Corporation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "original_query": "When was the PlayStation first released?",
+      "keyword_query": "Sony PlayStation first released 1994",
+      "keyword_top40_docids": [
+        "1025398",
+        "30652120",
+        "60052100",
+        "2254865",
+        "5522064",
+        "2270401",
+        "21053301",
+        "42365665",
+        "34699091",
+        "37791139",
+        "25940843",
+        "693454",
+        "1089941",
+        "29007874",
+        "66691853",
+        "65279162",
+        "1317389",
+        "5150987",
+        "485939",
+        "510275",
+        "31607666",
+        "26694626",
+        "32168061",
+        "616463",
+        "49812549",
+        "723708",
+        "9871587",
+        "26513178",
+        "26989",
+        "1830604",
+        "20002501",
+        "1469828",
+        "12378859",
+        "47564147",
+        "1038605",
+        "3328314",
+        "59351807",
+        "33619051",
+        "60612044",
+        "1762557"
+      ],
+      "kibana_top40_docids": [
+        "1025398",
+        "60052100",
+        "17817199",
+        "5311222",
+        "5522064",
+        "27144750",
+        "13107132",
+        "485939",
+        "8024910",
+        "6296585",
+        "7939491",
+        "2270401",
+        "4714239",
+        "65279162",
+        "723708",
+        "39466025",
+        "1225562",
+        "1830604",
+        "13008368",
+        "766362",
+        "8805844",
+        "1089941",
+        "1469828",
+        "2254865",
+        "23149340",
+        "33619051",
+        "1317389",
+        "8760174",
+        "32722",
+        "12633148",
+        "8494041",
+        "6085212",
+        "1829841",
+        "62320837",
+        "5414866",
+        "1624645",
+        "1387902",
+        "16385032",
+        "1269138",
+        "762932"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released in December 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduction of the PlayStation in December 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launch of the original PlayStation console in 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "December 1994",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1994",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "1994",
+        "December 1994",
+        "early December 1994"
+      ],
+      "matches": [
+        {
+          "docid": "1025398",
+          "sentences": [
+            "Since the launch of the original PlayStation console in 1994, the company has been developing PlayStation home video game consoles, accessories and services."
+          ]
+        },
+        {
+          "docid": "34699091",
+          "sentences": [
+            "Sony released the PlayStation in December 1994 in Japan"
+          ]
+        },
+        {
+          "docid": "65279162",
+          "sentences": [
+            "At the same time, a new competitor in the console marketplace emerged, Sony Computer Entertainment, with the introduction of the PlayStation in December 1994."
+          ]
+        },
+        {
+          "docid": "485939",
+          "sentences": [
+            "The PlayStation, released in early December 1994, was the most successful console of this generation."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "Launched in 1994, the first PlayStation gained 61% of global console sales and broke Nintendo's long-standing lead in the market."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "original_query": "When was the PlayStation 2 released?",
+      "keyword_query": "PlayStation 2 released 2000",
+      "keyword_top40_docids": [
+        "2684822",
+        "48585223",
+        "2893110",
+        "378179",
+        "8231017",
+        "32533085",
+        "3246941",
+        "66665284",
+        "21455975",
+        "1683298",
+        "3211309",
+        "2064163",
+        "472115",
+        "27144750",
+        "3636058",
+        "6454109",
+        "1959596",
+        "680676",
+        "63408494",
+        "1917117",
+        "579593",
+        "2194009",
+        "12330231",
+        "1749308",
+        "2163369",
+        "18900196",
+        "6014615",
+        "1025398",
+        "47276984",
+        "1927552",
+        "6801464",
+        "29007874",
+        "12249570",
+        "3859899",
+        "6215536",
+        "34774814",
+        "12633148",
+        "1038605",
+        "2910942",
+        "2275620"
+      ],
+      "kibana_top40_docids": [
+        "2254865",
+        "1959596",
+        "1927552",
+        "2163369",
+        "3277404",
+        "1025398",
+        "472115",
+        "2492340",
+        "30361",
+        "3636058",
+        "1387944",
+        "723708",
+        "1518597",
+        "2137404",
+        "16612113",
+        "19531",
+        "1062951",
+        "10974",
+        "215202",
+        "1001643",
+        "680006"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 2",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released in Japan on March 4, 2000",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in 2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launch of the PlayStation 2 in 2000",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launched in 2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "2000",
+        "March 4, 2000",
+        "October 26, 2000"
+      ],
+      "matches": [
+        {
+          "docid": "1025398",
+          "sentences": [
+            "The launch of the second PS console, the PlayStation 2 was released in Japan on March 4, 2000, and the U.S. on October 26, 2000."
+          ]
+        },
+        {
+          "docid": "693454",
+          "sentences": [
+            "In 2000, Sony released its successor to the PlayStation, the PlayStation 2."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "Sony followed up with the PlayStation 2 in 2000, which was even more successful."
+          ]
+        },
+        {
+          "docid": "49812549",
+          "sentences": [
+            "Sony would launch the PlayStation 2 in 2000, which feature support for online play via an external modem."
+          ]
+        },
+        {
+          "docid": "2254865",
+          "sentences": [
+            "With the launch of the PlayStation 2 in 2000, FromSoftware released the role-playing games Eternal Ring and Evergrace."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "original_query": "When was the PlayStation 4 released?",
+      "keyword_query": "PlayStation 4 released 2013",
+      "keyword_top40_docids": [
+        "61892625",
+        "29007874",
+        "32533085",
+        "32168061",
+        "35413866",
+        "58001958",
+        "25301785",
+        "39543681",
+        "1317389",
+        "50168332",
+        "39958107",
+        "21418254",
+        "73707508",
+        "32343598",
+        "30237226",
+        "41747499",
+        "579593",
+        "27139281",
+        "39642763",
+        "26694626",
+        "47564147",
+        "1025398",
+        "37335298",
+        "36231990",
+        "41261531",
+        "42018566",
+        "60553956",
+        "40075185",
+        "40867610",
+        "2684822",
+        "23391233",
+        "61262465",
+        "3859899",
+        "693454",
+        "49812549",
+        "18378826",
+        "2893110",
+        "60052100",
+        "39535200",
+        "4447623"
+      ],
+      "kibana_top40_docids": [
+        "42018566",
+        "39543681",
+        "32168061",
+        "1025398",
+        "26694626",
+        "31512491",
+        "43464559"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 4",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "launched in North America on November 15, 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released on November 15, 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 29, 2013",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "release in November 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2013",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "2013",
+        "November 2013",
+        "November 15, 2013",
+        "November 29, 2013",
+        "February 23, 2014"
+      ],
+      "matches": [
+        {
+          "docid": "29007874",
+          "sentences": [
+            "With the launch of the PlayStation 4 (PS4) in 2013,"
+          ]
+        },
+        {
+          "docid": "32168061",
+          "sentences": [
+            "The PlayStation 4 was released on November 15, 2013, in North America and November 29, 2013, in Australia and Europe at US$399.99, A$549 and €399 respectively."
+          ]
+        },
+        {
+          "docid": "65279162",
+          "sentences": [
+            "Sony and Microsoft both released their next consoles, the PlayStation 4 and the Xbox One, in 2013."
+          ]
+        },
+        {
+          "docid": "26694626",
+          "sentences": [
+            "also believed that the Vita had been released too late into the main PlayStation console cycle and too close to the PlayStation 4's release in November 2013."
+          ]
+        },
+        {
+          "docid": "1025398",
+          "sentences": [
+            "The PS4 was announced as the successor to the PS3 and was launched in North America on November 15, 2013, in Europe on November 29, 2013 and in Japan on February 23, 2014."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "original_query": "Where is Sony headquartered?",
+      "keyword_query": "Sony headquartered Minato Tokyo",
+      "keyword_top40_docids": [
+        "335939",
+        "405276",
+        "41258522",
+        "36587636",
+        "4590783",
+        "20172558",
+        "67777142",
+        "20658266",
+        "48299962",
+        "63084865",
+        "1279257",
+        "28796156",
+        "405251",
+        "16833892",
+        "22800379",
+        "10059889",
+        "7233398",
+        "62971231",
+        "52488389",
+        "42174561",
+        "18581563",
+        "1528587",
+        "72637676",
+        "3404426",
+        "9103403",
+        "13736157",
+        "1493144",
+        "1725373",
+        "52654682",
+        "38976124",
+        "498108",
+        "313829",
+        "2717395",
+        "47836792",
+        "17423273",
+        "14835430",
+        "3474110",
+        "4023550",
+        "1496767",
+        "1710732"
+      ],
+      "kibana_top40_docids": [
+        "335939",
+        "2717395",
+        "1025398",
+        "26989",
+        "59703"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "headquartered in Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony moved to Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "global headquarters of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Kōnan, Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "GPE",
+      "exact_answers": [
+        "Minato, Tokyo",
+        "Minato, Tokyo, Japan",
+        "Kōnan, Minato, Tokyo"
+      ],
+      "matches": [
+        {
+          "docid": "405276",
+          "sentences": [
+            "Minato hosts many embassies. It is also home to various domestic companies, including Honda, Mitsubishi Heavy Industries, MinebeaMitsumi, Mitsubishi Motors Corporation, NEC, Nikon, SoftBank Group, Sony, Fujitsu and Yokohama Rubber Company, as well as the Japanese headquarters of a number of multi-national firms, including Apple and Goldman Sachs."
+          ]
+        },
+        {
+          "docid": "335939",
+          "sentences": [
+            "Sony moved to Minato, Tokyo around the end of 2006 and closed the Osaki West Technology Center in Shinagawa around 2007."
+          ]
+        },
+        {
+          "docid": "3404426",
+          "sentences": [
+            "The global headquarters of Sony were previously located along Sony Dōri on the eastern edge of Higashi-Gotanda, but most of the complex has moved to adjacent Shinagawa, Minato Ward."
+          ]
+        },
+        {
+          "docid": "1025398",
+          "sentences": [
+            "the headquarters of the company moved from Minami-Aoyama to the (Sony Corporation's headquarters) in Kōnan, Minato, Tokyo."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "formerly known as and , is a Japanese multinational conglomerate corporation headquartered in Minato, Tokyo, Japan."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "original_query": "What company did Sony acquire in 1989?",
+      "keyword_query": "Sony acquired Columbia Pictures 1989",
+      "keyword_top40_docids": [
+        "939909",
+        "14109634",
+        "664762",
+        "354992",
+        "719515",
+        "948327",
+        "65398094",
+        "1893998",
+        "758259",
+        "16696347",
+        "202687",
+        "948326",
+        "1163730",
+        "1071662",
+        "5913316",
+        "3087502",
+        "334279",
+        "2569663",
+        "2391",
+        "58835123",
+        "1840243",
+        "2040018",
+        "8861986",
+        "4102303",
+        "7927053",
+        "65398141",
+        "69173569",
+        "54469464",
+        "9511853",
+        "4291327",
+        "26989",
+        "25563122",
+        "28482362",
+        "23761632",
+        "41652319",
+        "8004169",
+        "3559797",
+        "2669864",
+        "53405595",
+        "17579666"
+      ],
+      "kibana_top40_docids": [
+        "2391",
+        "14109634",
+        "664762",
+        "16696347",
+        "26989",
+        "354992",
+        "1071662",
+        "2040018",
+        "334279",
+        "939909",
+        "202687",
+        "1421380",
+        "5913316",
+        "1893978",
+        "1893998",
+        "72976044",
+        "182947",
+        "23579529",
+        "6931166",
+        "140624",
+        "13522156",
+        "1231291",
+        "394819",
+        "70977698",
+        "8132800",
+        "9769505",
+        "71007260",
+        "3613236",
+        "2196375",
+        "30468522",
+        "1317389",
+        "5148844",
+        "738217",
+        "36698341",
+        "9430259",
+        "70125233",
+        "12881580",
+        "758259",
+        "33096223",
+        "350211"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1989",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "acquired Columbia Pictures",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquired Columbia Pictures Entertainment",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquisition",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "was bought",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Columbia Pictures",
+        "Columbia Pictures Corporation",
+        "Columbia Pictures Entertainment"
+      ],
+      "matches": [
+        {
+          "docid": "14109634",
+          "sentences": [
+            "Sony acquired Columbia Pictures Corporation in 1989."
+          ]
+        },
+        {
+          "docid": "664762",
+          "sentences": [
+            "On November 8, 1989, the Sony Corporation of Japan acquired Columbia Pictures Entertainment for $3.4 billion."
+          ]
+        },
+        {
+          "docid": "354992",
+          "sentences": [
+            "Upon the full acquisition of Tri-Star by Columbia Pictures, and when Columbia Pictures Entertainment (now Sony Pictures Entertainment) was bought from Coca-Cola by Sony in 1989, Sony inherited the theaters."
+          ]
+        },
+        {
+          "docid": "939909",
+          "sentences": [
+            "On November 8, 1989, Sony completed the acquisition by a \"short-form\" merger of its wholly owned subsidiary Sony Columbia Acquisition Corporation into CPE under the Delaware General Corporation Law."
+          ]
+        },
+        {
+          "docid": "1893998",
+          "sentences": [
+            "On November 9, 1989, Sony entered the film industry by acquiring Columbia Pictures for $3.4 billion."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "original_query": "Which Tokyo wards or areas host major Sony offices or facilities?",
+      "keyword_query": "Sony offices facilities Tokyo Minato Shinagawa Toranomon",
+      "keyword_top40_docids": [
+        "335939",
+        "405276",
+        "64423861",
+        "8562476",
+        "1279257",
+        "19444543",
+        "67777142",
+        "5503347",
+        "59264971",
+        "39998095",
+        "55902049",
+        "19934180",
+        "11731275",
+        "498108",
+        "3404426",
+        "473381",
+        "14835430",
+        "376039",
+        "45466936",
+        "57635106",
+        "26353475",
+        "424445",
+        "13736157",
+        "383029",
+        "4983092",
+        "4983921",
+        "19556824",
+        "38947563",
+        "40362479",
+        "5546167",
+        "42147964",
+        "5518518",
+        "2008825",
+        "36587636",
+        "52299495",
+        "485276",
+        "383002",
+        "13179491",
+        "18412286",
+        "23212533"
+      ],
+      "kibana_top40_docids": [
+        "335939",
+        "405276",
+        "3404426",
+        "1279257",
+        "36587636",
+        "47836792",
+        "17423273",
+        "41660001",
+        "73556681",
+        "217832",
+        "67865638",
+        "26989",
+        "39767096",
+        "242257",
+        "1762557",
+        "66553340",
+        "21483948",
+        "58835123",
+        "14726855",
+        "2717395",
+        "28671589",
+        "49112954",
+        "7886995",
+        "6200915",
+        "64758598",
+        "1118247",
+        "1826429",
+        "18029228",
+        "939909",
+        "44307949",
+        "57143",
+        "69644893",
+        "307315",
+        "36736268",
+        "7266369",
+        "220355",
+        "8319693",
+        "22510873",
+        "9668580",
+        "2391"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Minato",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Shinagawa",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Toranomon",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "office OR facility OR center",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "GPE",
+      "exact_answers": [
+        "Minato, Tokyo",
+        "Shinagawa",
+        "Toranomon"
+      ],
+      "matches": [
+        {
+          "docid": "405276",
+          "sentences": [
+            "Minato hosts many embassies... including Sony."
+          ]
+        },
+        {
+          "docid": "335939",
+          "sentences": [
+            "Sony moved to Minato, Tokyo around the end of 2006 and closed the Osaki West Technology Center in Shinagawa around 2007."
+          ]
+        },
+        {
+          "docid": "3404426",
+          "sentences": [
+            "Most of the complex has moved to adjacent Shinagawa, Minato Ward."
+          ]
+        },
+        {
+          "docid": "17423273",
+          "sentences": [
+            "The Anaheim University Akio Morita Learning Center was located on the former estate of Sony Founder Akio Morita in the Minami Aoyama district of Minato, Tokyo, Japan."
+          ]
+        },
+        {
+          "docid": "1279257",
+          "sentences": [
+            "It has its headquarters in Toranomon Hills, Minato, Tokyo."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "original_query": "When was Sony founded?",
+      "keyword_query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+      "keyword_top40_docids": [
+        "6200915",
+        "74139408",
+        "217832",
+        "758259",
+        "5160594",
+        "2391",
+        "30047952",
+        "1243003",
+        "4527879",
+        "53373466",
+        "68903729",
+        "68822925",
+        "1877139",
+        "738217",
+        "26989",
+        "15863501",
+        "469898",
+        "44627342",
+        "51028898",
+        "25845862",
+        "12821047",
+        "10028376",
+        "32776972",
+        "63459599",
+        "63120990",
+        "1528587",
+        "26951282",
+        "5346907",
+        "66758671",
+        "60525682",
+        "61671643",
+        "18581563",
+        "12183181",
+        "57036664",
+        "27406017",
+        "50670439",
+        "9103403",
+        "10434794",
+        "186571",
+        "9430259"
+      ],
+      "kibana_top40_docids": [
+        "6200915",
+        "74139408",
+        "217832",
+        "758259",
+        "5160594",
+        "2391",
+        "30047952",
+        "1243003",
+        "4527879",
+        "53373466",
+        "68903729",
+        "68822925",
+        "1877139",
+        "738217",
+        "26989",
+        "15863501",
+        "469898",
+        "44627342",
+        "51028898",
+        "25845862",
+        "12821047",
+        "10028376",
+        "32776972",
+        "63459599",
+        "63120990",
+        "1528587",
+        "26951282",
+        "5346907",
+        "66758671",
+        "60525682",
+        "61671643",
+        "18581563",
+        "12183181",
+        "57036664",
+        "27406017",
+        "50670439",
+        "9103403",
+        "10434794",
+        "186571",
+        "9430259"
+      ],
+      "kibana_query": {
+        "query": {
+          "multi_match": {
+            "query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+            "fields": [
+              "parsedParagraphs",
+              "title"
+            ],
+            "type": "best_fields"
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "1946",
+        "May 7, 1946"
+      ],
+      "matches": [
+        {
+          "docid": "6200915",
+          "sentences": [
+            "In September 1945, after the end of World War II, Masaru Ibuka started a radio repair shop in the bomb-damaged Shirokiya department store building in the Nihonbashi district of Tokyo. The next year, he was joined by his wartime research colleague, Akio Morita, and on 7 May 1946, they founded a company called Tokyo Tsushin Kogyo K.K. (Tokyo Telecommunications Engineering Corporation)."
+          ]
+        },
+        {
+          "docid": "74139408",
+          "sentences": [
+            "Sony Group Corporation has owned several animation studios since the company's founding on May 7, 1946 by Masaru Ibuka and Akio Morita as Tokyo Tsushin Kogyo."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "With funding from Morita's father, they co-founded Tokyo Tsushin Kogyo Kabushiki Kaisha (Tokyo Telecommunications Engineering Corporation, the forerunner of Sony Corporation) in 1946 with about 20 employees and initial capital of ¥190,000."
+          ]
+        },
+        {
+          "docid": "738217",
+          "sentences": [
+            "In 1946, a fellow wartime researcher, Akio Morita, saw a newspaper article about Ibuka's new venture and after some correspondence, chose to join him in Tokyo. With funding from Morita's father, they co-founded Tokyo Telecommunications Engineering Corporation, which became known as Sony Corporation in 1958."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "Sony was established in 1946 as Tokyo Tsushin Kogyo by Masaru Ibuka and Akio Morita."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "original_query": "When was the PlayStation 5 released?",
+      "keyword_query": "PlayStation 5 released 2020",
+      "keyword_top40_docids": [
+        "32533085",
+        "63795325",
+        "62403594",
+        "25940843",
+        "65973256",
+        "29007874",
+        "62345038",
+        "64248753",
+        "1025398",
+        "693454",
+        "56651694",
+        "64249122",
+        "61418173",
+        "60052100",
+        "52622320",
+        "49390545",
+        "63498116",
+        "42365665",
+        "74470516",
+        "61892625",
+        "74743067",
+        "61247685",
+        "32343598",
+        "61158697",
+        "72077511",
+        "32168061",
+        "1476080",
+        "5272934",
+        "35869511",
+        "19894854",
+        "72656343",
+        "33226668",
+        "40788371",
+        "4067903",
+        "31825300",
+        "8135827",
+        "65303340",
+        "1018155",
+        "65933104",
+        "7814407"
+      ],
+      "kibana_top40_docids": [
+        "60830180",
+        "64249122",
+        "56651694",
+        "65973256",
+        "64248753",
+        "63795325",
+        "25940843",
+        "7814407",
+        "1025398",
+        "57014419",
+        "5272934",
+        "74470516",
+        "72656343",
+        "65223686",
+        "69302916",
+        "29007874",
+        "61516791",
+        "59055228",
+        "67632179",
+        "693454",
+        "61158697",
+        "52072465",
+        "70546738",
+        "52464953",
+        "68680281",
+        "72139091",
+        "71196294",
+        "36691288",
+        "74014598",
+        "47747350",
+        "32168061",
+        "41971563",
+        "70042775",
+        "20148343",
+        "61247685",
+        "71040722",
+        "32533085",
+        "59893020",
+        "74743067",
+        "65933104"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 5",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "release in November 2020",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in November 2020",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 12, 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 19, 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "2020",
+        "November 2020",
+        "November 12, 2020"
+      ],
+      "matches": [
+        {
+          "docid": "29007874",
+          "sentences": [
+            "This remastering extended to the PlayStation 5 (PS5) with its release in November 2020 with some of its launch titles being remastered PS4 games."
+          ]
+        },
+        {
+          "docid": "25940843",
+          "sentences": [
+            "SIE announced the rebranding of the division to PlayStation Studios in May 2020 as part of the introduction of the PlayStation 5, which was released later that year."
+          ]
+        },
+        {
+          "docid": "1025398",
+          "sentences": [
+            "SIE announced the formation of PlayStation Studios in May 2020 to be formally introduced alongside the PlayStation 5 later in 2020."
+          ]
+        },
+        {
+          "docid": "32168061",
+          "sentences": [
+            "In November 2020, Sony and Microsoft released the PlayStation 5 and Xbox Series X and Series S respectively."
+          ]
+        },
+        {
+          "docid": "7814407",
+          "sentences": [
+            "Support for PlayStation 5 games was added to the app in early November 2020, just prior to the console's launch on November 12, 2020."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "original_query": "Who is the CEO of Sony Group Corporation?",
+      "keyword_query": "Sony Group Corporation CEO Kenichiro Yoshida",
+      "keyword_top40_docids": [
+        "1527323",
+        "69539949",
+        "75227331",
+        "18138763",
+        "62776300",
+        "19360395",
+        "72364898",
+        "1243003",
+        "1579085",
+        "7984249",
+        "1893998",
+        "25940843",
+        "7142043",
+        "510275",
+        "24711171",
+        "23533300",
+        "8138253",
+        "758259",
+        "51384395",
+        "1025398",
+        "1071662",
+        "895671",
+        "14465194",
+        "8222552",
+        "4937634",
+        "34914417",
+        "202687",
+        "36723413",
+        "59636965",
+        "26989",
+        "11180423",
+        "21053301",
+        "63120990",
+        "26623076",
+        "53345201",
+        "3115141",
+        "939909",
+        "9511853",
+        "28824905",
+        "1089941"
+      ],
+      "kibana_top40_docids": [
+        "75227331",
+        "17175342",
+        "8132800",
+        "1893998",
+        "990394",
+        "939909",
+        "719515",
+        "1025398",
+        "26989",
+        "20899959",
+        "31669618",
+        "95171",
+        "334279"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony Group Corporation",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "CEO",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "chief executive officer",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Kenichiro Yoshida",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "PERSON",
+      "exact_answers": [
+        "Kenichiro Yoshida"
+      ],
+      "matches": [
+        {
+          "docid": "1527323",
+          "sentences": [
+            "On February 2, 2018, Sony announced that Hirai will be stepping down as president and CEO, effective April 1, 2018, to be replaced by CFO Kenichiro Yoshida. Hirai remained as the company's chairman and served on the board of directors to help the company transition to leadership under Yoshida."
+          ]
+        },
+        {
+          "docid": "69539949",
+          "sentences": [
+            "Kenichiro Yoshida (born 20 October 1959) is a Japanese businessman who has been the chief executive officer of Sony since April 2018, succeeding Kazuo Hirai, prior to which Yoshida was the company's chief financial officer. Yoshida joined Sony in 1987, and worked across the company's subsidiaries in the US and Japan."
+          ]
+        },
+        {
+          "docid": "75227331",
+          "sentences": [
+            "with Sony Group Corporation CEO Kenichiro Yoshida giving opening remarks."
+          ]
+        },
+        {
+          "docid": "62776300",
+          "sentences": [
+            "The Vision-S concept was unveiled at the 2020 Consumer Electronics Show in Las Vegas by CEO Kenichiro Yoshida."
+          ]
+        },
+        {
+          "docid": "72364898",
+          "sentences": [
+            "The ceremony was hosted by voice actress Sally Amaki and presenter Jon Kabira, with Sony CEO Kenichiro Yoshida opening the show."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "original_query": "What was Sony originally called?",
+      "keyword_query": "Sony originally called Tokyo Tsushin Kogyo Tokyo Telecommunications Engineering Corporation",
+      "keyword_top40_docids": [
+        "6200915",
+        "217832",
+        "758259",
+        "74139408",
+        "2391",
+        "5160594",
+        "30047952",
+        "469898",
+        "7886995",
+        "1243003",
+        "297066",
+        "5346907",
+        "53373466",
+        "738217",
+        "10529424",
+        "68903729",
+        "4527879",
+        "26989",
+        "335939",
+        "197865",
+        "55828245",
+        "18581563",
+        "6034686",
+        "48154545",
+        "15863501",
+        "10028376",
+        "68822925",
+        "66758671",
+        "1877139",
+        "75604514",
+        "58266333",
+        "939909",
+        "13378749",
+        "1011484",
+        "14716732",
+        "50670439",
+        "36736268",
+        "2289072",
+        "405276",
+        "8761347"
+      ],
+      "kibana_top40_docids": [
+        "6200915",
+        "2391",
+        "758259",
+        "74139408",
+        "217832",
+        "5160594",
+        "7886995",
+        "26989",
+        "297066",
+        "738217",
+        "1028189",
+        "28951957",
+        "1071662",
+        "3087502",
+        "307315",
+        "1528587",
+        "74720282",
+        "18459647",
+        "939909",
+        "25940843",
+        "4527879",
+        "62776300",
+        "13291990",
+        "37739892",
+        "719515",
+        "5664499",
+        "288106",
+        "74720591",
+        "895671",
+        "33809",
+        "7984249",
+        "1762557",
+        "10798005",
+        "51151062",
+        "58835123",
+        "34914417",
+        "2040018",
+        "1893998",
+        "7233398",
+        "31607666"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Tsushin Kogyo\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Telecommunications Engineering Corporation\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Tsushin Kogyo K.K.\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "forerunner of Sony OR became known as Sony OR renamed Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Tokyo Tsushin Kogyo",
+        "Tokyo Tsushin Kogyo K.K.",
+        "Tokyo Telecommunications Engineering Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "6200915",
+          "sentences": [
+            "Akio Morita, and on 7 May 1946, they founded a company called Tokyo Tsushin Kogyo K.K. (Tokyo Telecommunications Engineering Corporation)."
+          ]
+        },
+        {
+          "docid": "217832",
+          "sentences": [
+            "This research was done when he was with Tokyo Tsushin Kogyo (now known as Sony). He has also contributed in being a pioneer of the semiconductor superlattices."
+          ]
+        },
+        {
+          "docid": "758259",
+          "sentences": [
+            "His relationship with Sony began when he wrote a highly critical letter to Tokyo Tsushin Kogyo KK (also known as Totsuko and later as Sony),"
+          ]
+        },
+        {
+          "docid": "74139408",
+          "sentences": [
+            "Sony Group Corporation has owned several animation studios since the company's founding on May 7, 1946 by Masaru Ibuka and Akio Morita as Tokyo Tsushin Kogyo."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "With funding from Morita's father, they co-founded Tokyo Tsushin Kogyo Kabushiki Kaisha (Tokyo Telecommunications Engineering Corporation, the forerunner of Sony Corporation) in 1946 with about 20 employees and initial capital of ¥190,000."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "original_query": "What is Columbia Pictures Entertainment called now under Sony?",
+      "keyword_query": "Columbia Pictures Entertainment now called Sony Pictures Entertainment",
+      "keyword_top40_docids": [
+        "3087502",
+        "939909",
+        "948327",
+        "2569663",
+        "54469464",
+        "25563122",
+        "354992",
+        "664762",
+        "1893998",
+        "6756506",
+        "948326",
+        "6950329",
+        "58835123",
+        "719515",
+        "5913316",
+        "45196444",
+        "30076023",
+        "13291990",
+        "8222552",
+        "6392311",
+        "41652319",
+        "20754839",
+        "12889708",
+        "758259",
+        "8861986",
+        "7984249",
+        "37739892",
+        "202687",
+        "14109634",
+        "2669864",
+        "46726094",
+        "69173569",
+        "53679423",
+        "52053881",
+        "60343460",
+        "7996855",
+        "1840243",
+        "334279",
+        "36587636",
+        "990394"
+      ],
+      "kibana_top40_docids": [
+        "354992",
+        "664762",
+        "939909",
+        "758259",
+        "948326",
+        "5913316",
+        "2391",
+        "26989",
+        "334279",
+        "1421380",
+        "21154941"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Columbia Pictures Entertainment",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "now Sony Pictures Entertainment",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Pictures Entertainment",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquired by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony Pictures Entertainment"
+      ],
+      "matches": [
+        {
+          "docid": "3087502",
+          "sentences": [
+            "In 2002, Columbia TriStar Television was renamed as Sony Pictures Television. The last three remaining companies, with the 'Columbia TriStar' brand in its name, were Columbia TriStar Home Entertainment, the Columbia TriStar Motion Picture Group, and Columbia TriStar Marketing Group. Columbia TriStar Home Entertainment and Columbia TriStar Film Distributors became Sony Pictures Home Entertainment and Sony Pictures Releasing International in 2004 and 2005 and Columbia TriStar Motion Picture Group became the second-to-last subsidiary of Sony Pictures Entertainment to use the 'Columbia TriStar' brand name in its name."
+          ]
+        },
+        {
+          "docid": "939909",
+          "sentences": [
+            "Sony Pictures Entertainment Inc. (commonly known as Sony Pictures or SPE, and formerly known as Columbia Pictures Entertainment, Inc.) is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platform."
+          ]
+        },
+        {
+          "docid": "948327",
+          "sentences": [
+            "Columbia TriStar Television, Inc. (abbreviated as CTT) was an American television production and distribution company that was active from 1994 to 2002. It was operated as the third name of the early television studio Screen Gems and the fourth name of Pioneer Telefilms, both part of Sony Pictures Entertainment and the third company to use the Columbia and TriStar names together (the first being Columbia TriStar Home Video, later Sony Pictures Home Entertainment and the second, Columbia TriStar International Television, later rebranded as Sony Pictures Television International)."
+          ]
+        },
+        {
+          "docid": "2569663",
+          "sentences": [
+            "The company is registered under the trade name Sony Pictures Digital Productions Inc., though it is known as Sony Pictures Digital appeared in 2006 longer variant in the copyright on most of the Sony Pictures sites. It is currently headed by Robert Osher, President of Digital Productions, and Chief Operating Officer of Columbia TriStar Motion Picture Group, Sony Pictures Entertainment."
+          ]
+        },
+        {
+          "docid": "664762",
+          "sentences": [
+            "On November 8, 1989, the Sony Corporation of Japan acquired Columbia Pictures Entertainment for $3.4 billion. On August 7, 1991, under Sony Pictures Entertainment, the hyphen was officially removed from the name of the studio."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "original_query": "When did Tokyo Tsushin Kogyo change its name to Sony Corporation?",
+      "keyword_query": "Tokyo Tsushin Kogyo renamed Sony 1958",
+      "keyword_top40_docids": [
+        "6200915",
+        "217832",
+        "5160594",
+        "74139408",
+        "758259",
+        "2391",
+        "4527879",
+        "1877139",
+        "1243003",
+        "68903729",
+        "30047952",
+        "27406017",
+        "26989",
+        "67681223",
+        "66758671",
+        "53373466",
+        "68822925",
+        "1528587",
+        "52017726",
+        "25845862",
+        "10028376",
+        "5346907",
+        "15863501",
+        "738217",
+        "26951282",
+        "44299533",
+        "469898",
+        "60525682",
+        "1071662",
+        "12183181",
+        "44627342",
+        "55828245",
+        "4071715",
+        "10434794",
+        "25865136",
+        "2718817",
+        "12436491",
+        "60707958",
+        "1011484",
+        "60781509"
+      ],
+      "kibana_top40_docids": [
+        "6200915",
+        "5160594",
+        "74139408",
+        "217832",
+        "758259",
+        "2391",
+        "26989",
+        "4527879",
+        "189768"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Tokyo Tsushin Kogyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "renamed Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Corporation",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1958",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "January 1958",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "1958",
+        "January 1958"
+      ],
+      "matches": [
+        {
+          "docid": "6200915",
+          "sentences": [
+            "Following the first success in American consumer market, Tokyo Tsushin Kogyo changed its name to Sony in 1958 as people outside Japan struggled to pronounce the original name."
+          ]
+        },
+        {
+          "docid": "5160594",
+          "sentences": [
+            "The TR-55 featured the Sony name, but the company did not officially change its name to Sony until January 1958."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "in 1958, Morita and Ibuka decided to rename their company Sony Corporation (derived from \"sonus\"—Latin for \"sound\"—and \"sonny\", a then-common American expression)."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "In 1958, the company changed its name to 'Sony'."
+          ]
+        },
+        {
+          "docid": "738217",
+          "sentences": [
+            "they co-founded Tokyo Telecommunications Engineering Corporation, which became known as Sony Corporation in 1958."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "original_query": "When was the Sony Walkman first released?",
+      "keyword_query": "Sony Walkman released 1979",
+      "keyword_top40_docids": [
+        "33809",
+        "3458918",
+        "74978984",
+        "1028189",
+        "16548097",
+        "6200915",
+        "7886995",
+        "18959809",
+        "2391",
+        "18581563",
+        "5093866",
+        "5768303",
+        "41155749",
+        "26989",
+        "220355",
+        "46286078",
+        "2967587",
+        "74742580",
+        "42461232",
+        "297066",
+        "1527323",
+        "2653537",
+        "747881",
+        "49330848",
+        "12247531",
+        "307315",
+        "11500432",
+        "1528587",
+        "11959547",
+        "65877997",
+        "11959936",
+        "3595521",
+        "39409982",
+        "28951957",
+        "11923850",
+        "153863",
+        "948376",
+        "74462937",
+        "17241393",
+        "9130855"
+      ],
+      "kibana_top40_docids": [
+        "33809",
+        "3458918",
+        "74978984",
+        "6200915",
+        "1028189",
+        "2391",
+        "5768303",
+        "26989",
+        "747881",
+        "220355",
+        "41155749",
+        "153863",
+        "267832",
+        "22461736",
+        "307315",
+        "297066",
+        "89847",
+        "1386785",
+        "482235",
+        "948376",
+        "23060942",
+        "4286689",
+        "14260687",
+        "36450985",
+        "947219",
+        "4087395",
+        "23745",
+        "1774",
+        "57888684",
+        "51430647",
+        "43402974",
+        "57733991",
+        "68898424"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Walkman",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launched",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduced",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1979",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in 1979",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "answer_type": "DATE",
+      "exact_answers": [
+        "1979"
+      ],
+      "matches": [
+        {
+          "docid": "33809",
+          "sentences": [
+            "Walkman, stylised as , is a brand of portable audio players manufactured and marketed by Japanese company Sony since 1979."
+          ]
+        },
+        {
+          "docid": "3458918",
+          "sentences": [
+            "The Sony Walkman was released in 1979, created by Akio Morita, Masaru Ibuka (the co-founders of Sony) and Kozo Ohsone."
+          ]
+        },
+        {
+          "docid": "6200915",
+          "sentences": [
+            "Walkman, the first stereo cassette player, was launched in 1979."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "In 1979, Sony released the world's first portable music player, the Walkman, bundled with the MDL-3L2 headphones."
+          ]
+        },
+        {
+          "docid": "2391",
+          "sentences": [
+            "In 1979, the Walkman was introduced, making it one of the world's first portable music players."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "original_query": "Which company developed Xperia smartphones?",
+      "keyword_query": "Xperia smartphones developed Sony Mobile Xperia",
+      "keyword_top40_docids": [
+        "23556331",
+        "74978984",
+        "307315",
+        "56941646",
+        "30652120",
+        "24948099",
+        "74489360",
+        "12574529",
+        "31604345",
+        "75078390",
+        "7814407",
+        "27956360",
+        "14260687",
+        "27916590",
+        "18959809",
+        "40663593",
+        "54819244",
+        "1527323",
+        "32168061",
+        "55040042",
+        "68031292",
+        "33809",
+        "26989",
+        "8618787",
+        "48564927",
+        "27653752",
+        "374039",
+        "39264821",
+        "26727046",
+        "9063280",
+        "22887461",
+        "49474735",
+        "33843132",
+        "1164253",
+        "34966816",
+        "32978392",
+        "41381138",
+        "41079751",
+        "35816424",
+        "35313359"
+      ],
+      "kibana_top40_docids": [
+        "307315",
+        "74978984",
+        "23556331",
+        "24948099",
+        "30652120",
+        "18959809",
+        "56941646",
+        "33809",
+        "74489360",
+        "14260687",
+        "54819244",
+        "31648241",
+        "75078390",
+        "26989",
+        "7814407",
+        "12574529",
+        "32978392",
+        "26727046",
+        "32168061",
+        "55040042",
+        "374039",
+        "28013",
+        "39133688",
+        "273555",
+        "27815578",
+        "33364019",
+        "362641",
+        "20148343"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Xperia",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "developed",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "developed by",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Ericsson",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Mobile",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "under Sony Corporation",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony Ericsson",
+        "Sony Mobile",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "307315",
+          "sentences": [
+            "Prior to April 1, 2021, Sony Mobile exclusively created Android-powered smartphones under the Xperia sub-brand name; it also developed tablet computers (Sony Tablet), smartwatches (Sony SmartWatch) and fitness trackers (Sony SmartBand), alongside accessories and software for the devices."
+          ]
+        },
+        {
+          "docid": "23556331",
+          "sentences": [
+            "Xperia was originally developed by Sony Ericsson before becoming Sony Mobile in 2012; it has been under Sony Corporation since 2021 following Sony Mobile's merger."
+          ]
+        },
+        {
+          "docid": "24948099",
+          "sentences": [
+            "The Sony Ericsson Xperia X10 is a 2010 high end smartphone in the Xperia series designed by Sony Ericsson."
+          ]
+        },
+        {
+          "docid": "74978984",
+          "sentences": [
+            "Music was launched as Walkman in 2012, debuting on Sony's first in-house smartphones the Xperia S, Xperia P and Xperia U."
+          ]
+        },
+        {
+          "docid": "30652120",
+          "sentences": [
+            "The first certified device was Xperia Play."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "original_query": "Trinitron is a product/brand of which company?",
+      "keyword_query": "Trinitron Sony brand name television",
+      "keyword_top40_docids": [
+        "1358511",
+        "173449",
+        "6200915",
+        "26989",
+        "4024903",
+        "18581563",
+        "21686501",
+        "738217",
+        "53405595",
+        "48100923",
+        "3087502",
+        "66084492",
+        "17881336",
+        "306127",
+        "35943708",
+        "719515",
+        "52053881",
+        "10798005",
+        "37791139",
+        "33809",
+        "948327",
+        "6931166",
+        "1893998",
+        "1056839",
+        "7984249",
+        "413007",
+        "1473084",
+        "23556331",
+        "74139408",
+        "37268014",
+        "20589630",
+        "153863",
+        "39448",
+        "13291990",
+        "31604345",
+        "1028189",
+        "3675143",
+        "72669671",
+        "59617242",
+        "9132510"
+      ],
+      "kibana_top40_docids": [
+        "6200915",
+        "1358511",
+        "173449",
+        "26989",
+        "4024903",
+        "18581563",
+        "21686501",
+        "738217",
+        "413007",
+        "660310"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Trinitron",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony launched",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduced the Trinitron",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "brand",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "6200915",
+          "sentences": [
+            "In 1968, Sony launched the legendary color television set, Trinitron."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "In 1968, the company introduced the Trinitron brand name for its lines of aperture grille cathode ray tube televisions and afterwards computer monitors."
+          ]
+        },
+        {
+          "docid": "173449",
+          "sentences": [
+            "Officially introduced by Ibuka in April 1968, the original 12 inch Trinitron had a display quality that easily surpassed any commercial set in terms of brightness, color fidelity, and simplicity of operation."
+          ]
+        },
+        {
+          "docid": "21686501",
+          "sentences": [
+            "The result was the famed Trinitron system, which went on sale in 1968 to wide acclaim."
+          ]
+        },
+        {
+          "docid": "738217",
+          "sentences": [
+            "Sony's Trinitron color television in 1967."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "original_query": "BRAVIA televisions are products of which company?",
+      "keyword_query": "BRAVIA television Sony brand",
+      "keyword_top40_docids": [
+        "1358511",
+        "7984249",
+        "18581563",
+        "26989",
+        "13291990",
+        "33804694",
+        "23918922",
+        "30729698",
+        "33928517",
+        "46697826",
+        "1762557",
+        "1579085",
+        "2642722",
+        "35943708",
+        "48100923",
+        "53405595",
+        "52053881",
+        "307315",
+        "17881336",
+        "37791139",
+        "306127",
+        "66084492",
+        "6931166",
+        "719515",
+        "1893998",
+        "3087502",
+        "173449",
+        "74139408",
+        "27143065",
+        "36978583",
+        "8222552",
+        "2717395",
+        "53937699",
+        "1056839",
+        "1473084",
+        "33809",
+        "10798005",
+        "35538022",
+        "43423830",
+        "220355"
+      ],
+      "kibana_top40_docids": [
+        "1358511",
+        "18581563",
+        "1762557",
+        "33804694",
+        "26989",
+        "2642722",
+        "7984249",
+        "33928517",
+        "173449",
+        "23918922",
+        "30729698",
+        "13291990",
+        "1579085",
+        "46697826",
+        "307315",
+        "42766088",
+        "2697948",
+        "1181109",
+        "73290072",
+        "6891537"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "BRAVIA",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "owned by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "in-house brand owned by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "televisions",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "1358511",
+          "sentences": [
+            "Their flat-panel LCD televisions were branded LCD WEGA until summer 2005 when they were rebranded BRAVIA."
+          ]
+        },
+        {
+          "docid": "18581563",
+          "sentences": [
+            "Sony provides products that include Blu-ray players, BRAVIA televisions, Cyl digital cameras, Handycam Camcorders, VAIO computers, broadcast cameras,"
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "Sony used the LCD WEGA name for its LCD TVs until summer 2005. The company then introduced the BRAVIA name. BRAVIA is an in-house brand owned by Sony which produces high-definition LCD televisions,"
+          ]
+        },
+        {
+          "docid": "33804694",
+          "sentences": [
+            "On January 9, 2012, Yahoo! and Sony announced Broadcast Interactivity technology available in 2012 Sony BRAVIA televisions."
+          ]
+        },
+        {
+          "docid": "46697826",
+          "sentences": [
+            "creating an agency that launched several award-winning campaigns including: â€œBallsâ€ for Sony Bravia TVs"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "original_query": "The TR-55 transistor radio belongs to which company?",
+      "keyword_query": "TR-55 transistor radio Sony company",
+      "keyword_top40_docids": [
+        "5160594",
+        "297066",
+        "6200915",
+        "70502703",
+        "306127",
+        "51028898",
+        "18581563",
+        "37473313",
+        "34173810",
+        "5768303",
+        "2391",
+        "26989",
+        "738217",
+        "7886995",
+        "4527879",
+        "2653537",
+        "4071715",
+        "5093866",
+        "33809",
+        "31318646",
+        "35072658",
+        "34548219",
+        "8279430",
+        "220355",
+        "4207229",
+        "153863",
+        "4924819",
+        "29648051",
+        "3583595",
+        "71252705",
+        "49377353",
+        "68460403",
+        "51286734",
+        "12797322",
+        "18887653",
+        "35741989",
+        "16379200",
+        "67401409",
+        "1058980",
+        "71179111"
+      ],
+      "kibana_top40_docids": [
+        "6200915",
+        "5160594",
+        "297066",
+        "70502703",
+        "34173810",
+        "306127",
+        "5768303",
+        "26989",
+        "37473313",
+        "3583595",
+        "71252705",
+        "2598947",
+        "8279430",
+        "19064431",
+        "189768",
+        "220355",
+        "351574",
+        "48865079",
+        "13991324",
+        "28191187",
+        "11145707",
+        "19917120",
+        "11917420",
+        "2840793",
+        "1568579",
+        "23978284",
+        "51286734",
+        "520824",
+        "29038213",
+        "36066491",
+        "17094374",
+        "75563458",
+        "57893496",
+        "2561096",
+        "4161009",
+        "1058980",
+        "2644231",
+        "14499471",
+        "60612044",
+        "23890699"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "TR-55",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony TR-55",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "transistor radio",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1955",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "5160594",
+          "sentences": [
+            "The TR-55, released in 1955, was both Japan's and Sony's first commercially available transistor radio."
+          ]
+        },
+        {
+          "docid": "297066",
+          "sentences": [
+            "In August 1955, while still a small company, Tokyo Telecommunications Engineering Corporation introduced their TR-55 five-transistor radio under the new brand name Sony."
+          ]
+        },
+        {
+          "docid": "6200915",
+          "sentences": [
+            "In August 1955, Tokyo Tsushin Kogyo released the Sony TR-55, Japan's first commercially produced transistor radio."
+          ]
+        },
+        {
+          "docid": "26989",
+          "sentences": [
+            "This electronics company, known for creating products such as the transistor radio TR-55,"
+          ]
+        },
+        {
+          "docid": "18581563",
+          "sentences": [
+            "Sony's first transistor radio, TR55 in 1955."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "original_query": "Alpha (ÃŽÂ±) cameras are products introduced by which company?",
+      "keyword_query": "Sony Alpha camera brand introduced Sony Alpha DSLR",
+      "keyword_top40_docids": [
+        "28519902",
+        "27317016",
+        "1181109",
+        "13208662",
+        "26989",
+        "53901368",
+        "14859388",
+        "1060779",
+        "23556331",
+        "57143",
+        "1207664",
+        "31384443",
+        "59948581",
+        "66805179",
+        "330282",
+        "307315",
+        "24042585",
+        "21916203",
+        "28432995",
+        "41611565",
+        "2057358",
+        "6200915",
+        "43423830",
+        "499887",
+        "26053512",
+        "32876196",
+        "27101421",
+        "12302784",
+        "60861181",
+        "32455235",
+        "55681879",
+        "799208",
+        "3193137",
+        "2779248",
+        "1150577",
+        "220355",
+        "56941646",
+        "74489360",
+        "33809",
+        "1358511"
+      ],
+      "kibana_top40_docids": [
+        "28519902",
+        "31384443",
+        "24042585",
+        "1060779",
+        "28432995",
+        "26989",
+        "27317016",
+        "53901368",
+        "25350332",
+        "4042684",
+        "23777463",
+        "56884529",
+        "41611565",
+        "911840",
+        "43288648",
+        "36063830",
+        "14161536",
+        "799208",
+        "5936014",
+        "14260687",
+        "15544797",
+        "43423830",
+        "193977",
+        "20752083",
+        "32703679",
+        "1181109",
+        "4463430",
+        "36010007",
+        "38611233",
+        "40811072",
+        "18495",
+        "4898436",
+        "23637880",
+        "13208662",
+        "20307969",
+        "21291483",
+        "93548",
+        "36491302",
+        "34086086",
+        "6050036"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Alpha",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "branded Alpha",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Alpha",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "proprietary",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "26989",
+          "sentences": [
+            "Sony offers a wide range of digital cameras. Its point-and-shoot models are branded Cyber-shot, while DSLRs and mirrorless models are branded Alpha,"
+          ]
+        },
+        {
+          "docid": "31384443",
+          "sentences": [
+            "such as the Panasonic Lumix DMC-GF2, Olympus PEN E-P1/E-P2, and Sony Alpha NEX-3/5."
+          ]
+        },
+        {
+          "docid": "27317016",
+          "sentences": [
+            "The Sony Alpha NEX-3 and NEX-5 (announced May 14, 2010, and released in July 2010) saw Sony enter the market with a new,"
+          ]
+        },
+        {
+          "docid": "28432995",
+          "sentences": [
+            "such as the Panasonic Lumix DMC-GF1, Olympus PEN E-P1/E-P2, and Sony Alpha NEX-3."
+          ]
+        },
+        {
+          "docid": "28519902",
+          "sentences": [
+            "Single-lens translucent (SLT) is a Sony proprietary designation for Sony Alpha cameras which employ a pellicle mirror, electronic viewfinder, and phase-detection autofocus system."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "original_query": "VAIO computers belong to which company?",
+      "keyword_query": "Sony VAIO computers brand Sony VAIO laptop",
+      "keyword_top40_docids": [
+        "220355",
+        "25412104",
+        "25414741",
+        "29441469",
+        "1762557",
+        "31604345",
+        "25403235",
+        "18581563",
+        "2798525",
+        "1028189",
+        "44064649",
+        "44030833",
+        "29441374",
+        "4185851",
+        "26989",
+        "75604514",
+        "31638566",
+        "447149",
+        "3872863",
+        "33809",
+        "1527323",
+        "8470540",
+        "27857395",
+        "219341",
+        "1060779",
+        "2020710",
+        "40732535",
+        "39733366",
+        "1492625",
+        "21671575",
+        "25940843",
+        "941245",
+        "4024903",
+        "895671",
+        "36094802",
+        "67476964",
+        "307315",
+        "2272682",
+        "39448",
+        "616196"
+      ],
+      "kibana_top40_docids": [
+        "220355",
+        "25412104",
+        "29441469",
+        "25403235",
+        "25414741",
+        "1762557",
+        "2798525",
+        "3872863",
+        "4185851",
+        "29441374",
+        "67476964",
+        "31604345",
+        "44030833",
+        "18581563",
+        "44064649",
+        "26989",
+        "1028189",
+        "8470540",
+        "447149",
+        "75604514",
+        "4152018",
+        "2992958",
+        "1527323",
+        "31638566",
+        "27857395",
+        "2020710",
+        "36094802",
+        "33809",
+        "40732535",
+        "39733366",
+        "1492625",
+        "21671575",
+        "101679",
+        "24994",
+        "649994"
+      ],
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "VAIO",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "brand of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "formerly a brand of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "laptop OR notebook",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "answer_type": "ORG",
+      "exact_answers": [
+        "Sony",
+        "Sony Corporation"
+      ],
+      "matches": [
+        {
+          "docid": "220355",
+          "sentences": [
+            "VAIO was formerly a brand of Sony, introduced in 1996."
+          ]
+        },
+        {
+          "docid": "25412104",
+          "sentences": [
+            "The Sony Vaio C Series is a discontinued series of notebook computers from Sony introduced in September 2006 as the consumer alternative follow-up to the then current SZ series."
+          ]
+        },
+        {
+          "docid": "31604345",
+          "sentences": [
+            "Sony's Vaio division had released tablet-like products before, such as the Sony Vaio U series in 2004."
+          ]
+        },
+        {
+          "docid": "18581563",
+          "sentences": [
+            "Sony provides products that include Blu-ray players, BRAVIA televisions, Cyl digital cameras, Handycam Camcorders, VAIO computers, broadcast cameras,"
+          ]
+        },
+        {
+          "docid": "25414741",
+          "sentences": [
+            "The Vaio AW series is a discontinued range of high-end multimedia laptop computers from Sony introduced in September 2008."
+          ]
+        }
+      ]
+    }
+  ]
+}

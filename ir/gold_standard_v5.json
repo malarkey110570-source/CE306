@@ -1,0 +1,90 @@
+{
+  "student_surname": "Sutcliffe",
+  "student_givenname": "Richard",
+  "student_reg_number": "2500000",
+  "topic_keywords":"Dire Straits Mark Knopfler",
+  "queries":
+  [
+    {
+      "number":1,
+      "original_query":"Who played keyboards in the band Dire Straits",
+      "keyword_query":"dire straits keyboards band",
+      "kibana_query":
+      {
+        "query":
+        {
+          "bool":
+          {
+            "must": [
+              { "multi_match" : { "query" : "dire straits", "fields": ["parsedParagraphs"], "type": "phrase" } },
+              { "multi_match" : { "query" : "keyboards", "fields": ["parsedParagraphs"], "type": "best_fields" } } ]
+          }
+        }
+      },
+      "answer_type":"PERSON",
+      "exact_answers": [ "Alan Clark", "Guy Fletcher", "Tommy Mandel" ],
+      "matches":
+      [
+        {
+          "docid":"17674657",
+          "sentences":
+          [
+            "At the time of their initial breakup in September 1988, the band featured Mark Knopfler, Illsley, rhythm guitarist and backing vocalist Jack Sonni, drummer Terry Williams and keyboardists Alan Clark and Guy Fletcher.",
+            "After the album, which featured Roy Bittan on keyboards, was released in October 1980, Hal Lindes was announced as Knopfler's replacement, while keyboardist Alan Clark was also added.",
+            "During the Love over Gold Tour, Dire Straits added keyboardist Tommy Mandel, percussionist Joop de Korte and King Crimson saxophonist Mel Collins to their touring lineup, all of whom were featured on the live release Alchemy: Dire Straits Live."
+          ]
+        },
+        {
+          "docid":"4466719",
+          "sentences":
+          [
+            "Alan Clark (born 5 March 1952) is an English musician who was the first keyboardist and co-producer of the rock band Dire Straits."
+          ]
+        },
+        {
+          "docid":"9155914",
+          "sentences":
+          [
+            "Some tracks also feature members of Dire Straits, keyboardist Alan Clark and drummer Pick Withers;"
+          ]
+        },
+        {
+          "docid":"172898",
+          "sentences":
+          [
+            "After the recording sessions were completed, keyboardist Alan Clark and Californian guitarist Hal Lindes joined Dire Straits as full-time members for the On Location tour of Europe, North America, and Oceania."
+          ]
+        }
+      ]
+    },
+    {
+      "number":2,
+      "original_query":"something",
+      "keyword_query":"something",
+      "kibana_query":
+      {
+        "query":
+        {
+          "multi_match":
+          {
+            "query":"something",
+            "fields":[],
+            "type":"best_fields"
+          }
+        }
+      },
+      "answer_type":"PERSON/FAC/ORG/GPE/LOC/EVENT/DATE/MONEY",
+      "exact_answers": [ "one thing", "another thing" ],
+      "matches":
+      [
+        {
+          "docid":"1234567",
+          "sentences":
+          [
+            "a sentence"
+          ]
+        }
+      ]
+    }
+  ]
+}

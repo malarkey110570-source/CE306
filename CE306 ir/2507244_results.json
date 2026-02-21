@@ -1,0 +1,1586 @@
+{
+  "student_surname": "Zhang",
+  "student_givenname": "Yang",
+  "student_reg_number": "2507244",
+  "topic_keywords": " Sony Group Corporation Minato Tokyo Akio Morita, Masaru Ibuka, Kenichiro Yoshida, Hiroki Totoki",
+  "queries": [
+    {
+      "number": 1,
+      "original_query": "Who founded Sony?",
+      "keyword_query": "founded sony akio morita masaru ibuka",
+      "kibana_query": {
+        "query": {
+          "multi_match": {
+            "query": "founded sony akio morita masaru ibuka",
+            "fields": [
+              "parsedParagraphs",
+              "title"
+            ],
+            "type": "best_fields"
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.4,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.4,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 2,
+      "original_query": "When was the PlayStation first released?",
+      "keyword_query": "Sony PlayStation first released 1994",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released in December 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduction of the PlayStation in December 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launch of the original PlayStation console in 1994",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "December 1994",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1994",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.2,
+        "r_n_is_5": 0.2,
+        "p_n_is_10": 0.2,
+        "r_n_is_10": 0.4,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.2,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.2,
+        "p_n_is_10": 0.2,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.4,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 3,
+      "original_query": "When was the PlayStation 2 released?",
+      "keyword_query": "PlayStation 2 released 2000",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 2",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released in Japan on March 4, 2000",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in 2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launch of the PlayStation 2 in 2000",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launched in 2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2000",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.0,
+        "r_n_is_5": 0.0,
+        "p_n_is_10": 0.0,
+        "r_n_is_10": 0.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.2,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.2,
+        "p_n_is_10": 0.2,
+        "p_n_is_10_increases": 1.0,
+        "r_n_is_10": 0.4,
+        "r_rises": 1.0
+      }
+    },
+    {
+      "number": 4,
+      "original_query": "When was the PlayStation 4 released?",
+      "keyword_query": "PlayStation 4 released 2013",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 4",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "launched in North America on November 15, 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released on November 15, 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 29, 2013",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "release in November 2013",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2013",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.4,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.2,
+        "r_n_is_10": 0.4,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": -1.0,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": -1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 5,
+      "original_query": "Where is Sony headquartered?",
+      "keyword_query": "Sony headquartered Minato Tokyo",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "headquartered in Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony moved to Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "global headquarters of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Kōnan, Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Minato, Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.4,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.2,
+        "r_n_is_10": 0.4,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": -1.0,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": -1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 6,
+      "original_query": "What company did Sony acquire in 1989?",
+      "keyword_query": "Sony acquired Columbia Pictures 1989",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1989",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "acquired Columbia Pictures",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquired Columbia Pictures Entertainment",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquisition",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "was bought",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.8,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.4,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.4,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 7,
+      "original_query": "Which Tokyo wards or areas host major Sony offices or facilities?",
+      "keyword_query": "Sony offices facilities Tokyo Minato Shinagawa Toranomon",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Tokyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Minato",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Shinagawa",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Toranomon",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "office OR facility OR center",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.3,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.8,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 1.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 1.0
+      }
+    },
+    {
+      "number": 8,
+      "original_query": "When was Sony founded?",
+      "keyword_query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+      "kibana_query": {
+        "query": {
+          "multi_match": {
+            "query": "Sony founded 1946 Tokyo Tsushin Kogyo",
+            "fields": [
+              "parsedParagraphs",
+              "title"
+            ],
+            "type": "best_fields"
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.4,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.3,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.4,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.3,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 9,
+      "original_query": "When was the PlayStation 5 released?",
+      "keyword_query": "PlayStation 5 released 2020",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "PlayStation 5",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "release in November 2020",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in November 2020",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 12, 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 19, 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "November 2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "2020",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.2,
+        "r_n_is_5": 0.2,
+        "p_n_is_10": 0.3,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.0,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.0,
+        "p_n_is_10": 0.3,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 10,
+      "original_query": "Who is the CEO of Sony Group Corporation?",
+      "keyword_query": "Sony Group Corporation CEO Kenichiro Yoshida",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony Group Corporation",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "CEO",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "chief executive officer",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Kenichiro Yoshida",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.8,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.2,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.2,
+        "p_n_is_10": 0.1,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.2,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 11,
+      "original_query": "What was Sony originally called?",
+      "keyword_query": "Sony originally called Tokyo Tsushin Kogyo Tokyo Telecommunications Engineering Corporation",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Tsushin Kogyo\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Telecommunications Engineering Corporation\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "\"Tokyo Tsushin Kogyo K.K.\"",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "forerunner of Sony OR became known as Sony OR renamed Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 1.0,
+        "r_n_is_5": 1.0,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 1.0,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 1.0,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 12,
+      "original_query": "What is Columbia Pictures Entertainment called now under Sony?",
+      "keyword_query": "Columbia Pictures Entertainment now called Sony Pictures Entertainment",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Columbia Pictures Entertainment",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "now Sony Pictures Entertainment",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Pictures Entertainment",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "acquired by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.8,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.4,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.2,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.4,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 13,
+      "original_query": "When did Tokyo Tsushin Kogyo change its name to Sony Corporation?",
+      "keyword_query": "Tokyo Tsushin Kogyo renamed Sony 1958",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Tokyo Tsushin Kogyo",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "renamed Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Corporation",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1958",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "January 1958",
+                  "fields": [
+                    "parsedParagraphs",
+                    "title"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.4,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.3,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.4,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": -1.0,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": -1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 14,
+      "original_query": "When was the Sony Walkman first released?",
+      "keyword_query": "Sony Walkman released 1979",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Walkman",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "released",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "launched",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduced",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1979",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "released in 1979",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 2
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.4,
+        "r_n_is_5": 0.4,
+        "p_n_is_10": 0.4,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 1.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 1.0
+      }
+    },
+    {
+      "number": 15,
+      "original_query": "Which company developed Xperia smartphones?",
+      "keyword_query": "Xperia smartphones developed Sony Mobile Xperia",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Xperia",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "developed",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "developed by",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Ericsson",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Mobile",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "under Sony Corporation",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.8,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 1.0,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 1.0,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 16,
+      "original_query": "Trinitron is a product/brand of which company?",
+      "keyword_query": "Trinitron Sony brand name television",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Trinitron",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony launched",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "introduced the Trinitron",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "brand",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 17,
+      "original_query": "BRAVIA televisions are products of which company?",
+      "keyword_query": "BRAVIA television Sony brand",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "BRAVIA",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "owned by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "in-house brand owned by Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "televisions",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.8,
+        "p_n_is_5_increases": 1.0,
+        "r_n_is_5": 0.8,
+        "p_n_is_10": 0.4,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 18,
+      "original_query": "The TR-55 transistor radio belongs to which company?",
+      "keyword_query": "TR-55 transistor radio Sony company",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "TR-55",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony TR-55",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "transistor radio",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "1955",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.4,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.4,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.8,
+        "r_rises": 0.0
+      }
+    },
+    {
+      "number": 19,
+      "original_query": "Alpha (Î±) cameras are products introduced by which company?",
+      "keyword_query": "Sony Alpha camera brand introduced Sony Alpha DSLR",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "Alpha",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "branded Alpha",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony Alpha",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "proprietary",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.3,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "p_n_is_10_increases": 1.0,
+        "r_n_is_10": 1.0,
+        "r_rises": 1.0
+      }
+    },
+    {
+      "number": 20,
+      "original_query": "VAIO computers belong to which company?",
+      "keyword_query": "Sony VAIO computers brand Sony VAIO laptop",
+      "kibana_query": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "multi_match": {
+                  "query": "VAIO",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "should": [
+              {
+                "multi_match": {
+                  "query": "brand of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "formerly a brand of Sony",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "phrase"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "Sony",
+                  "fields": [
+                    "title",
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              },
+              {
+                "multi_match": {
+                  "query": "laptop OR notebook",
+                  "fields": [
+                    "parsedParagraphs"
+                  ],
+                  "type": "best_fields"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      },
+      "results_keyword_query": {
+        "p_n_is_5": 0.6,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.5,
+        "r_n_is_10": 1.0,
+        "r_rises": 0.0
+      },
+      "results_kibana_query": {
+        "p_n_is_5": 0.6,
+        "p_n_is_5_increases": 0.0,
+        "r_n_is_5": 0.6,
+        "p_n_is_10": 0.3,
+        "p_n_is_10_increases": 0.0,
+        "r_n_is_10": 0.6,
+        "r_rises": 0.0
+      }
+    }
+  ]
+}
